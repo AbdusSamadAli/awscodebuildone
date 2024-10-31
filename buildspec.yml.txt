@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Nothing to build"  # Ensure there is a space after the dash
+
+artifacts:
+  files:
+    - '**/*'  # Include all files in the root directory and subdirectories
